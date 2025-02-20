@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+.heading {
+    color:bisque;
+    font-size: 50px;
+}
+
+p {
+    /* selects all <p> tags */
+    color:green;
+}
+.myclass {
+    /* selects all elements with class="myclass" */
+    color: red;
+}
+#myid {
+    /* selects the element with id="myid" */
+    color: blue;
+}
+
+#nav ul li a:hover {
+    color: red; 
+}
+#nav ul li.active a::after {
+    content: " (current)";
+    color:green;
+}
+#hello-wrapper{
+    display:flex;
+    flex-direction: column;
+}

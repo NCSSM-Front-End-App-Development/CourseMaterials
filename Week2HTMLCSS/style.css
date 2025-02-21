@@ -29,5 +29,4 @@ p {
 }
 #hello-wrapper{
     display:flex;
-    flex-direction: column;
 }

@@ -1,0 +1,28 @@
+.movable-element {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: all 0.5s ease-in-out;
+    transition-property: background-color, transform;
+}
+
+.movable-element:hover {
+    background-color: red;
+    transform: translateX(100px);
+}
+
+/* Syntax Example */
+/* 
+div {
+  transition: <property> <duration> <timing-function> <delay>;
+} 
+*/
+
+/* 
+div {
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+} 
+*/
